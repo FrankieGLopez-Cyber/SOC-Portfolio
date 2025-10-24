@@ -1,4 +1,25 @@
-/NICE-Challenges/
-   ├── Challenge-1-Volatile-Vulnerabilities/
-   │   ├── FrankieLopez_NCPReport1Challenge.pdf
-   │   ├── README.md
+# 🧠 NICE Challenge Projects
+
+Hands-on cybersecurity simulations aligned with the **NIST/NICE Workforce Framework**.  
+Each project demonstrates technical, analytical, and policy-based skills applied to real-world SOC and system-security scenarios.
+
+---
+
+## 📂 Current Challenges
+
+| Challenge | Description | Skills Demonstrated |
+|------------|--------------|----------------------|
+| [Volatile Vulnerabilities](./Challenge-1-Volatile-Vulnerabilities) | Mitigated cross-department access risks using GPO and AppLocker. | Windows hardening, access control, policy enforcement |
+
+---
+
+## 🧩 Framework Mapping
+**Work Roles:** Systems Security Analyst, Vulnerability Analyst  
+**Framework:** NIST/NICE SP 800-181  
+**Key Domains:** Protect & Defend • Securely Provision • Analyze  
+
+---
+
+### 🪜 Future Additions
+- Challenge 2 – Log Analysis & Incident Response  
+- Challenge 3 – Network Threat Investigation  
