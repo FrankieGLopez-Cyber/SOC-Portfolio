@@ -18,8 +18,13 @@ This repository showcases my **hands-on technical projects**, **certifications**
 ## 🧰 Project Categories
 | Folder | Description |
 |--------|--------------|
-|[View NICE Challenge Project](NICE-Challenge/NICE-Challenge-Project.md)
-| Hands-on cybersecurity simulations mapped to NIST/NICE Framework |
+### 🔒 NICE Challenge Project – Volatile Vulnerabilities [NG]
+- **Scenario:** Simulated enterprise environment where HR and Accounting users had unauthorized access to each other’s applications.
+- **Objective:** Implement cybersecurity countermeasures using Windows Group Policy and AppLocker.
+- **Actions Taken:** Created and linked domain-level GPOs, enabled Application Identity Service, enforced executable rules, and applied targeted deny rules.
+- **Result:** ✅ Full 8/8 validation pass — successfully isolated HR and Accounting access.
+  
+- **Link:** [View Report](NICE-Challenge/NICE-Challenge-Project.md)
 | [Linux-Labs](./Linux-Labs) | Linux permissions, privilege escalation, and system hardening exercises |
 | [Networking](./Networking) | Network defense, packet capture analysis, and firewall configuration |
 | [Splunk-Projects](./Splunk-Projects) | SIEM dashboards, threat detection, and log correlation examples |
