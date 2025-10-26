@@ -18,7 +18,6 @@ This repository showcases my **hands-on technical projects**, **certifications**
 
 ☁️ **AWS Knowledge: Cloud Essentials – Training Badge** – [Verified Badge](https://www.credly.com/badges/b2ff23d7-807d-4af6-8348-e8eec4b59ae5/public_url)  
 💻 **Skillable Challenge Labs** – [Verified Badge](https://www.credly.com/badges/522820ee-3431-409e-ba3b-3a1bd617298e/public_url)  
-🧩 **NICE Challenge Project – Volatile Vulnerabilities [NG]** – [Full Report](https://github.com/FrankieGLopez-Cyber/SOC-Portfolio/blob/main/NICE-Challenge/FrankieLopez_NCPReport1Challenge.pdf)  
 
 
 | ## 🧰 Project Categories
