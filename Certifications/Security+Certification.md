@@ -1,0 +1,2 @@
+[CompTIA Security+ (SY0-701) – Verified Credly Badge](https://www.credly.com/badges/cdd0171b-5d7a-42eb-b276-c0651c5406bb/public_url) 
+
