@@ -8,12 +8,18 @@ This repository showcases my **hands-on technical projects**, **certifications**
 ## 🧾 Certifications
 - 🛡️ [CompTIA Security+ (SY0-701)](https://www.credly.com/badges/cdd0171b-5d7a-42eb-b276-c0651c5406bb/public_url)
 - 🧩 [TryHackMe SOC Level 1](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-MGCVIIBU0D.pdf)
-- ☁️ [AWS Cloud Essentials](https://www.credly.com/badges/b2ff23d7-807d-4af6-8348-e8eec4b59ae5/public_url)
 - 🧠 [Google Cybersecurity Certificate](https://www.credly.com/badges/3ed6d567-1b5a-4e3b-aa4a-5737358a8985/public_url)
 - ⚙️ [GRC Mastery – Governance, Risk & Compliance](https://www.credly.com/badges/cb00e16d-cb2e-41a0-873f-4a187faa64eb/public_url)
 - 💻 Over **71 hands-on cybersecurity labs** completed via TryHackMe & Skillable.
 
 ---
+
+## ☁️ Cloud & Technical Foundations
+
+☁️ **AWS Knowledge: Cloud Essentials – Training Badge** – [Verified Badge](https://www.credly.com/badges/b2ff23d7-807d-4af6-8348-e8eec4b59ae5/public_url)  
+💻 **Skillable Challenge Labs** – [Verified Badge](https://www.credly.com/badges/522820ee-3431-409e-ba3b-3a1bd617298e/public_url)  
+🧩 **NICE Challenge Project – Volatile Vulnerabilities [NG]** – [Full Report](https://github.com/FrankieGLopez-Cyber/SOC-Portfolio/blob/main/NICE-Challenge/FrankieLopez_NCPReport1Challenge.pdf)  
+
 
 | ## 🧰 Project Categories
 
