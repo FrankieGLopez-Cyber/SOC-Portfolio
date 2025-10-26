@@ -19,7 +19,7 @@ This repository showcases my **hands-on technical projects**, **certifications**
 
 | **Folder** | **Description** |
 |-------------|-----------------|
-| [NICE Challenge Project](NICE-Challenge/NICE-Challenge-Project)
+| [NICE Challenge Project](NICE-Challenge/NICE-Challenge-Project) |
 | Configured enterprise **Group Policy** and **AppLocker** rules to restrict HR and Accounting app access, achieving a full 8/8 validation pass in the **NICE Challenge – Volatile Vulnerabilities [NG]** scenario. |
 | [Linux-Labs](Linux-Labs/) | Linux permissions, privilege escalation, and system hardening exercises. |
 | [Networking](Networking/) | Network defense, packet capture analysis, and firewall configuration. |
