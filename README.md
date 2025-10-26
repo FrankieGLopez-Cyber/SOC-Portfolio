@@ -25,10 +25,7 @@ This repository showcases my **hands-on technical projects**, **certifications**
 | [Splunk-Projects](Splunk-Projects/) | SIEM dashboards, threat detection, and log correlation examples. |
 | [Windows-AD](Windows-AD/) | Active Directory configuration, GPO management, and domain hardening tasks. |
  |
-| [Linux-Labs](Linux-Labs/) | Linux permissions, privilege escalation, and system hardening exercises. |
-| [Networking](Networking/) | Network defense, packet capture analysis, and firewall configuration. |
-| [Splunk-Projects](Splunk-Projects/) | SIEM dashboards, threat detection, and log correlation examples. |
-| [Windows-AD](Windows-AD/) | Active Directory configuration, GPO management, and domain hardening tasks. |
+
 
 ---
 
