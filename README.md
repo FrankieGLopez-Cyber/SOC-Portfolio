@@ -20,7 +20,7 @@ This repository showcases my **hands-on technical projects**, **certifications**
 💻 **Skillable Challenge Labs** – [Verified Badge](https://www.credly.com/badges/522820ee-3431-409e-ba3b-3a1bd617298e/public_url)  
 
 
-| ## 🧰 Project Categories
+🧰 Project Categories
 
 | Folder | Description |
 |---------|-------------|
