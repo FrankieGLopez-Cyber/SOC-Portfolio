@@ -30,6 +30,19 @@ Implement and test Windows security features to protect data and systems using e
 
 ---
 
+## 🧩 Framework Alignment
+**NICE Framework (NIST SP 800-181):**  
+- **T0123:** Implement system-level cybersecurity controls for applications and systems.  
+- **T0276:** Apply system hardening techniques to reduce attack surface.  
+- **K0060:** Knowledge of operating system security configuration and auditing.  
+
+**MITRE ATT&CK Techniques:**  
+- **T1562.001 – Disable or Modify Tools (BitLocker Configuration)**  
+- **T1552 – Unsecured Credentials (EFS and Key Recovery)**  
+- **T1078 – Valid Accounts (User Access & Certificate Management)**
+
+---
+
 ## 📊 Outcome
 Successfully configured and validated multiple layers of Windows data protection and recovery mechanisms.  
 Demonstrated ability to secure client systems using native Microsoft tools and policies.
