@@ -65,5 +65,5 @@ My objective was to design and enforce access controls preventing unauthorized u
 
 ---
 
-🔗 [Official NICE Challenge Verification](https://portal.nice-challenge.com/reports/verify/FD120-48FF-331A8/)
+🔗 [[Official NICE Challenge Verification](https://portal.nice-challenge.com/reports/verify/FD120-48FF-331A8/)](https://github.com/FrankieGLopez-Cyber/SOC-Portfolio/blob/main/NICE-Challenge/FrankieLopez_NCPReport1Challenge.pdf)
 
