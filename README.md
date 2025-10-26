@@ -18,7 +18,7 @@ This repository showcases my **hands-on technical projects**, **certifications**
 ## 🧰 Project Categories
 | Folder | Description |
 |--------|--------------|
-| [NICE-Challenges](./NICE-Challenges) | Hands-on cybersecurity simulations mapped to NIST/NICE Framework |
+|[NICE-Challenges](NICE-Challenges/) | Hands-on cybersecurity simulations mapped to NIST/NICE Framework |
 | [Linux-Labs](./Linux-Labs) | Linux permissions, privilege escalation, and system hardening exercises |
 | [Networking](./Networking) | Network defense, packet capture analysis, and firewall configuration |
 | [Splunk-Projects](./Splunk-Projects) | SIEM dashboards, threat detection, and log correlation examples |
