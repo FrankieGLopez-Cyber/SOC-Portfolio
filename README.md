@@ -1,6 +1,7 @@
 # 🧠 SOC-Portfolio — Frankie Lopez
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Frankie%20Lopez-blue?logo=linkedin)](https://www.linkedin.com/in/frankie-lopez-917200156/)
+|
 Welcome to my cybersecurity portfolio.  
 This repository showcases my **hands-on technical projects**, **certifications**, and **SOC analyst training progress** aligned with the **NIST/NICE Workforce Framework**.
 
