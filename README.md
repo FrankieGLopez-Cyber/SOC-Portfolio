@@ -28,7 +28,8 @@ This repository showcases my **hands-on technical projects**, **certifications**
 | [Linux-Labs](Linux-Labs/) | Linux permissions, privilege escalation, and system hardening exercises. |
 | [Networking](Networking/) | Network defense, packet capture analysis, and firewall configuration. |
 | [Splunk-Projects](Splunk-Projects/) | SIEM dashboards, threat detection, and log correlation examples. |
-| [Windows-AD](Windows-AD/) | Active Directory configuration, GPO management, and domain hardening tasks. |
+| [Windows-Security](Windows-Security/) | Implemented Windows security administration labs including EFS, BitLocker encryption, certificate recovery, and patch management using PowerShell and Group Policy. |
+
 
 
 ---
