@@ -73,76 +73,89 @@ My objective was to design and enforce access controls preventing unauthorized u
 
 
 
-NICE Challenge – Volatile Vulnerabilities (NG)
+# NICE Challenge – Volatile Vulnerabilities (NG)
 
-Submission ID: 64406
-Challenge ID: 123
-Date: Feb 20, 2022
-Result: ✅ Full Pass (8/8 Validations)
-Duration: 1 hr 19 min
+**Submission ID:** 64406  
+**Challenge ID:** 123  
+**Date:** February 20, 2022  
+**Duration:** 1 hr 19 min  
+**Result:** ✅ **Full Check Pass (8/8)**
 
-📄 View Full Challenge Report
+[📄 **View Full NICE Challenge Report**](NICE-Challenge/FrankieLopez_NCPReport1Challenge.pdf)
 
-🧠 Scenario
+---
 
-The organization discovered that HR and Accounting applications lacked proper access segmentation — allowing users in one department to open and interact with applications intended for the other. This posed a data confidentiality and internal access control risk.
+## 🧠 Scenario
+A security gap was identified where users in the HR and Accounting departments could access each other’s applications, creating a **confidentiality and internal access control risk**.
 
-Objective
+**Objective:**  
+Enforce **role-based application access** to ensure:
+- HR users can only run the HR application  
+- Accounting users can only run the Accounting application  
 
-Restrict application access so:
+---
 
-HR users can only run the HR application
+## ⚙️ Actions Taken
+- Created and linked a **domain-level GPO (DasApp Policy)**  
+- Enabled the **Application Identity Service** to support AppLocker  
+- Configured **AppLocker Executable Rules** to control permitted applications  
+- Generated **Default Allowed Rules** to maintain OS stability  
+- Implemented **Explicit Deny Rules** to:
+  - Block HR users from launching the Accounting app  
+  - Block Accounting users from launching the HR app  
 
-Accounting users can only run the Accounting application
+---
 
-⚙️ Actions Taken
-Control Implemented	Purpose	Tool Used
-Created GPO (DasApp Policy)	Centralized enforcement of access policy	Group Policy Mgmt Console
-Enabled Application Identity Service	Supports AppLocker execution rules	Services.msc / GPMC
-Configured AppLocker Executable Rules	Controlled which users can run which apps	Local/Domain Policy
-Generated Default Allowed Rules	Ensured OS stability while enforcing restrictions	AppLocker
-Applied Explicit Deny Rules	Prevent cross-department app execution	AppLocker + AD Group Membership
-🛡️ Security Purpose
+## 🧰 Tools & Technologies
+- Windows Server / Active Directory  
+- Group Policy Management Console (GPMC)  
+- AppLocker (Executable Policy Enforcement)  
+- Security Policy Editor  
+- AD Users, Groups & OU Management  
 
-This configuration enforces least privilege and zero trust segmentation between internal user roles.
+---
 
-🧰 Tools & Technologies
+## 📊 Outcome
+| Result | Description |
+|--------|-------------|
+| ✅ | All 8 validation checks passed |
+| 🔐 | Department application access successfully isolated |
+| 🚫 | Cross-department execution attempts blocked |
+| 📏 | System now enforces **Least Privilege & Separation of Duties** |
 
-Windows Server / Active Directory
+---
 
-Group Policy Management Console (GPMC)
+## 🔥 Security Impact
+This configuration:
+- **Eliminates unauthorized internal data access**
+- Protects **sensitive HR and financial information**
+- Ensures **policy-based enforcement**, not trust-based access
+- Demonstrates **Zero Trust** and **Role-Based Access Control (RBAC)** principles
 
-AppLocker Policy Enforcement
+Supports compliance frameworks:
+- **NIST 800-53 (AC-1, AC-3)**
+- **SOX** (Internal Access Governance)
+- **HIPAA Privacy Controls**
 
-Security Policy Editor
+---
 
-Organizational Unit / Group Permission Management
+## 🧩 NICE Framework Alignment
 
-📊 Outcome
+| Category | Code | Demonstrated Capability |
+|---------|------|------------------------|
+| **Task** | T0123 | Implement system/application cybersecurity controls |
+| **Knowledge** | K0060 | Operating system security configuration |
+| **Knowledge** | K0049 | Enterprise security boundary/segmentation |
+| **Skill** | S0031 | Apply system access control configurations |
+| **Skill** | S0147 | Assess effectiveness of applied controls |
 
-✅ All 8 validation checks passed
-🔐 HR and Accounting data access was successfully isolated
-🚫 Cross-department application misuse was blocked
-📏 System state now meets confidentiality + business separation requirements
+---
 
-🔥 Impact
+## 🏁 Summary
+This challenge demonstrates the ability to **design and enforce application access controls** using Active Directory and AppLocker to prevent improper internal data access.  
+It reflects real-world competencies required in:
+- **SOC Analyst**
+- **IAM Analyst**
+- **Security Administrator**
 
-This change reduced internal data exposure risk by ensuring that:
-
-Only the right users access the right applications
-
-Sensitive finance and HR data is not accessible across departments
-
-Business role boundaries are enforced through policy, not trust
-
-This directly supports HIPAA, SOX, and Principle of Least Privilege internal controls.
-
-🧩 NICE Framework Alignment
-Category	Code	Skill Demonstrated
-Task	T0123	Implement cybersecurity countermeasures
-Knowledge	K0060	Operating system security configuration
-Ability	S0031	System access control implementation
-Skill	S0147	Assessing effectiveness of applied controls
-🏁 Summary
-
-This challenge demonstrates real-world identity-based access enforcement using Windows Server and AppLocker to prevent improper internal data access — a core requirement in enterprise SOC and IAM roles.
+**Core Strength Demonstrated:** Practical implementation of **Least Privilege** and **Zero Trust** policy enforcement in a Windows enterprise environment.
