@@ -6,46 +6,66 @@
 
 ---
 
-## ⚙️ Objectives
-Implement and test Windows security features to protect data and systems using encryption, key recovery, and patch management.
+## ⚙️ Objective
+Implement and validate Windows data protection controls using **file and disk encryption**, **certificate recovery**, and **system patch management** to ensure confidentiality, integrity, and recoverability.
 
 ---
 
 ## 🧰 Tasks Completed
-- Configured **EFS (Encrypting File System)** to protect sensitive files.  
-- Tested **encryption access controls** between users.  
-- Recovered **lost encryption keys** using certificate import and recovery agent.  
-- Enabled and tested **BitLocker drive encryption** with recovery key backup.  
-- Verified **BitLocker management via PowerShell** (`Get-Command *BitLocker*`).  
-- Managed **Windows Updates** to ensure system integrity and patch compliance.  
+- Configured **Encrypting File System (EFS)** to protect user-sensitive files  
+- Tested **cross-user access restrictions** to validate permission enforcement  
+- Performed **certificate recovery** using a **Recovery Agent** and certificate import  
+- Enabled and verified **BitLocker** full-disk encryption with **Recovery Key backup**  
+- Confirmed BitLocker status and administration using PowerShell (`Get-Command *BitLocker*`)  
+- Managed **Windows Updates** to maintain system integrity and patch compliance  
+
+---
+
+## 🛡️ Security Purpose
+These configurations enforce:
+- **Confidentiality** of stored files and disks
+- **Recovery capability** in the event of key loss or device theft
+- **System trustworthiness** through ongoing security patch management
+
+This reflects **real enterprise workstation hardening practices**.
 
 ---
 
 ## 🧠 Key Skills Demonstrated
-- Windows security administration  
-- File and drive encryption (EFS, BitLocker)  
-- Certificate management (PKI fundamentals)  
-- PowerShell automation  
-- Patch management and update control  
+| Skill Category | Description |
+|----------------|-------------|
+| Windows Security Administration | Implemented system-level security controls |
+| Encryption & Key Management | Used EFS and BitLocker with recovery strategies |
+| Certificate Services | Managed identity-based encryption certificates |
+| PowerShell Operations | Verified encryption and system state through CLI |
+| Patch Compliance | Ensured system was fully updated and hardened |
 
 ---
 
 ## 🧩 Framework Alignment
-**NICE Framework (NIST SP 800-181):**  
-- **T0123:** Implement system-level cybersecurity controls for applications and systems.  
-- **T0276:** Apply system hardening techniques to reduce attack surface.  
-- **K0060:** Knowledge of operating system security configuration and auditing.  
 
-**MITRE ATT&CK Techniques:**  
-- **T1562.001 – Disable or Modify Tools (BitLocker Configuration)**  
-- **T1552 – Unsecured Credentials (EFS and Key Recovery)**  
-- **T1078 – Valid Accounts (User Access & Certificate Management)**
+**NICE Framework (NIST SP 800-181):**
+- **T0123:** Implement cybersecurity controls for systems and applications  
+- **T0276:** Apply hardening techniques to reduce attack surface  
+- **K0060:** OS-level security configuration and auditing  
+
+**MITRE ATT&CK:**
+| Technique | Description |
+|----------|-------------|
+| **T1562.001** | Modify security tools (BitLocker policy & key mgmt) |
+| **T1552** | Credentials in files / encryption protection (EFS) |
+| **T1078** | Valid accounts and role-based access testing |
 
 ---
 
 ## 📊 Outcome
-Successfully configured and validated multiple layers of Windows data protection and recovery mechanisms.  
-Demonstrated ability to secure client systems using native Microsoft tools and policies.
+- **File-level and disk-level encryption fully configured**
+- **Recovery keys validated and stored securely**
+- **Unauthorized access attempts were blocked**
+- **System confirmed patched and current**
+
+✅ **Result:** Secure workstation configuration aligned with enterprise hardening standards.
+
 
 ## Screenshots
 ### Certificate Recovery
