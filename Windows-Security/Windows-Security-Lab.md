@@ -1,6 +1,5 @@
 # 🪟 Windows Security Administration Lab – EFS, BitLocker & Updates
-
-**Course:** CIS1950 – Windows Client Administration  
+ 
 **Author:** Frankie Lopez  
 **Environment:** Windows 10 VM | PowerShell | Active Directory Tools  
 
