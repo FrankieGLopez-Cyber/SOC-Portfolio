@@ -43,7 +43,7 @@ This repository showcases my **hands-on technical projects**, **certifications**
 ---
 
 **Author:** Frankie Lopez  
-**Certifications:** Security+, Google Cybersecurity, TryHackMe SOC Level 1, GRC Mastery, AWS Cloud Essentials  
+**Certifications:** CompTIA Security+, Google Cybersecurity, TryHackMe SOC Level 1, GRC Mastery, AWS Cloud Essentials  
 **Goal:** To become a top-performing SOC Analyst ready to protect, detect, and respond with precision.
 
 ## 🤝 Connect With Me
