@@ -6,7 +6,8 @@
 **Duration:** 1 hr 19 min  
 **Result:** ✅ **Full Check Pass (8/8)**
 
-[View Full NICE Challenge PDF Report](./NICE-Challenge/FrankieLopez_NCPReport1Challenge.pdf)
+[View Full NICE Challenge PDF Report](./NICE-Challenge/FrankieLopez_NCPReport1Challenge.pdf?raw=1)
+
 
 
 ---
