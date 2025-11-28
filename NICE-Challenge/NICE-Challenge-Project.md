@@ -83,4 +83,8 @@ It reflects real-world competencies required in:
 - **IAM Analyst**
 - **Security Administrator**
 
+Looking back, a key takeaway from this challenge was how sensitive AppLocker configurations are to scope and inheritance.
+Ensuring that each department had clearly defined allow/deny rules reinforced the importance of validating policy behavior rather than assuming access is segmented by default.
+Even though this lab was done some time ago, the concepts stuck with me — particularly how role-based controls must be tested from both perspectives (HR → Accounting and vice versa) to confirm that least privilege is truly enforced.
+
 **Core Strength Demonstrated:** Practical implementation of **Least Privilege** and **Zero Trust** policy enforcement in a Windows enterprise environment.
